@@ -9,7 +9,7 @@ body {
     --brand-color: #2196f3;
     --off-color: #f5f4fa;
 }
-.footer {
+.footer-container {
     background-color: #2f303a;
 }
 .title {
@@ -67,7 +67,7 @@ body {
 .order {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--off-color);
-    border-color: var(--off-color);
+    border: none;
     border-radius: 4px;
     width: 200px;
     height: 50px;
@@ -77,6 +77,7 @@ body {
     line-height: 1.88;
     align-items: center;
     text-align: center;
+    padding: 10px 42px;
 }
 .order:hover,
 .order:focus {
@@ -87,12 +88,13 @@ body {
 }
 .button {
     background-color: var(--off-color);
-    border-color: var(--off-color);
+    border: none;
     font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    padding: 6px 22px;
 }
 .button:hover,
 .button:focus {
