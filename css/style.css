@@ -8,9 +8,10 @@ body {
     --font-color2: #757575;
     --brand-color: #2196f3;
     --off-color: #f5f4fa;
+    --background-color1: #2f303a;
 }
 .footer-container {
-    background-color: #2f303a;
+    background-color: var(--background-color1);
 }
 .title {
     color: #fff;
@@ -62,7 +63,7 @@ body {
     line-height: 1.19;
 }
 .solutions {
-    background-color: #2f303a;
+    background-color: var(--background-color1);
 }
 .order {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -128,7 +129,7 @@ body {
     font-weight: 500;
     text-decoration: none;
 
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.17;
 }
